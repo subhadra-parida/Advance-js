@@ -1,4 +1,4 @@
-var c=20;
+var a=20;
 function outer(){
     var a=5;
     function inner(){
@@ -9,12 +9,7 @@ function outer(){
     console.log(a)
 }
 console.log("Barsha")
+// console.log(c)
 outer();
-
-
-
-// OUTPUT:-
-// Barsha
-// 10
-// 5
+// console.log(c)
 

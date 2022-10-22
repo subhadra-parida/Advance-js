@@ -1,6 +1,6 @@
 const prom=new Promise((resolve,reject)=>{
     var a=8
-    if(a==8){
+    if(a==80){
         resolve("yes")
     }
     else{
